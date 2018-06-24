@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="59px" viewBox="0 0 76 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Green-Landing" transform="translate(-168.000000, -37.000000)">
+            <g id="HEADER" transform="translate(166.000000, -79.000000)">
+                <g id="Logo" transform="translate(6.000000, 121.000000)">
+                    <circle id="Oval-3" stroke="#7DD0D3" stroke-width="8" cx="17.5" cy="24.5" r="17.5"></circle>
+                    <circle id="Oval-3" stroke="#4C85D9" stroke-width="10" cx="42.5" cy="24.5" r="24.5"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

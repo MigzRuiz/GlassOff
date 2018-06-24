@@ -10,9 +10,9 @@
 <body>
 
     <!--Done! - User Story #1: My product landing page should have a header element with a corresponding id="header".
-        User Story #2: I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.
-        User Story #3: Within the #header element I can see a nav element with a corresponding id="nav-bar".
-        User Story #4: I can see at least three clickable elements inside the nav element, each with the class nav-link.
+    <!--Done! - User Story #2: I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.
+    <!--Done! - User Story #3: Within the #header element I can see a nav element with a corresponding id="nav-bar".
+    <!--Done! - User Story #4: I can see at least three clickable elements inside the nav element, each with the class nav-link.
         User Story #5: When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page.
         User Story #6: I can watch an embedded product video with id="video".
         User Story #7: My landing page has a form element with a corresponding id="form".
@@ -24,16 +24,46 @@
         User Story #13: The navbar should always be at the top of the viewport.
         User Story #14: My product landing page should have at least one media query.
         User Story #15: My product landing page should utilize CSS flexbox at least once.-->
-    
-    <header id="header" class="header">
-        <nav class="navbar">
-            <img src="img/" alt="">
-            <a href="#" class="navbar__items navbar__items-about">About</a>
-            <a href="#" class="navbar__items navbar__items-works">How it works</a>
-            <a href="#" class="navbar__items navbar__items-FAQs">FAQs</a>
-        </nav>
-    </header>
 
-    
+    <div class="container">
+        
+    </div>
+
+    <header id="header" class="header">
+        <nav class="navbar" id="nav-bar">
+            <ul class="navbar__list">
+                <li class="navbar__item"><a href="#" class="navbar__link">
+                    <svg width="76px" height="59px" viewBox="0 0 76 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+                    <title>Logo</title>
+                    <desc>Created with Sketch.</desc>
+                    <defs></defs>
+                    <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="Green-Landing" transform="translate(-168.000000, -37.000000)">
+                            <g id="HEADER" transform="translate(166.000000, -79.000000)">
+                                <g id="Logo" transform="translate(6.000000, 121.000000)">
+                                    <circle id="Oval-3" stroke="#7DD0D3" stroke-width="8" cx="17.5" cy="24.5" r="17.5"></circle>
+                                    <circle id="Oval-3" stroke="#4C85D9" stroke-width="10" cx="42.5" cy="24.5" r="24.5"></circle>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    </svg>
+                </a></li>
+                <li class="navbar__item"><a href="#" class="navbar__link">About</a></li>
+                <li class="navbar__item"><a href="#" class="navbar__link">How it works</a></li>
+                <li class="navbar__item"><a href="#" class="navbar__link">FAQs</a></li>
+                <li class="navbar__item"><a href="#" class="navbar__link">Download now</a></li>
+            </ul>
+        </nav>
+        <div class="header-left">
+            <h1 class="heading-primary">Offglass<span>Read without glasses again</span></h1>
+            <p class="heading-text">A new mobile application to train your near vision performance. Created by world-class vision experts and neuroscientists.</p>
+            <a href="#" class="btn">Download now</a>
+        </div>
+        <div class="header-right">
+            <img id="header-img" src="img/header-graphics.svg" alt="hero graphics"/>
+        </div>
+    </header>
 </body>
 </html>

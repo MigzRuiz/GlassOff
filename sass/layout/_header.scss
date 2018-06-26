@@ -1,0 +1,46 @@
+.header {
+    display: flex; 
+    flex-direction: column;
+
+    //Centering all content
+    width: 100%;        
+    max-width: 1140px;
+    margin: 0 auto;
+
+    &__hero{
+        display:flex;
+
+        &-left{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        &-right{
+            z-index: 10;
+            img{
+                transform: scale(.9);   
+            }
+        }
+    }
+}
+
+.navbar{
+    &__list{
+        list-style-type: none;
+        display: flex;
+    }
+    &__link{
+        margin-top: 5.5rem;
+        &:not(:last-child){
+            margin-right: 6.7rem;
+        }
+        &:first-child{
+            margin-right: auto;
+        }
+    }
+    &__item{
+        //typography
+        text-decoration: none;
+        color: var(--color-primary);
+    }
+}

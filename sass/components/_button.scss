@@ -1,0 +1,20 @@
+//components
+.btn{
+    padding: 1.5rem 4rem;
+    border-radius: 10rem;
+    width: 24.3rem;
+
+
+    &-purple{
+        background-color: var(--color-purple);
+        //typography
+        color:var(--color-white);
+        text-decoration: none;
+        text-align: center;
+    }
+
+    &-clear{
+        border: 1px solid var(--color-primary);
+
+    }
+}

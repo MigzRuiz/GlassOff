@@ -1,90 +1,35 @@
-.header {
-    width: 100%;
-    max-width: 1140px;
-    margin: 0 auto;
-    
-    &__hero{
+.about{
+    background-image: linear-gradient(to right top, var(--color-primary), var(--color-secondary));
+
+   // -webkit-clip-path: polygon(0 55%, 100% 0, 100% 100%, 0 100%);
+    clip-path: polygon(0 55%, 100% 0, 100% 100%, 0 100%);
+    //height: 50rem;
+
+    margin-top: -24rem;
+    z-index: -1;
+
+    &__box{
         display:flex;
+        justify-content: space-between;
 
-        &-left{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-        }
-        &-right{
-            img{
-                transform: scale(.9);   
-            }
-        }
+        //Centering all content
+        width: 100%;        
+        max-width: 1140px;
+        margin: 0 auto;
+
+        padding-top: 40rem;
     }
-}
 
-.navbar{
-    &__list{
-        list-style-type: none;
-       
+    &__phone{
+        display: inline-block;
+        z-index: 9999;
+    }
 
+    &__text{
+        
         display: flex;
-    }
-    &__link{
-        margin-top: 5.5rem;
-        &:not(:last-child){
-            margin-right: 6.7rem;
-        }
-        &:first-child{
-            margin-right: auto;
-        }
-    }
-    &__item{
-        //typography
-        text-decoration: none;
-        color: var(--color-primary);
-    }
-}
-
-//typography
-.heading{
-    &-primary{
-        text-transform: uppercase;
-        font-size: 4.0rem;
-        font-weight: 500;
-        line-height: 4.5rem;
-
-        .off{
-            color:var(--color-secondary);
-        }
-        .glass{
-            color:var(--color-primary);
-        }
-        .sub{
-            display:inline-block;
-            color:var(--color-dark);
-        }
-    }
-
-    &-text{
-        margin-top: 2.8rem;
-        max-width: 54rem;
-    }
-}
-
-//components
-.btn{
-    padding: 1.5rem 4rem;
-    border-radius: 10rem;
-    width: 24.3rem;
-
-
-    &-purple{
-        background-color: var(--color-purple);
-        //typography
-        color:var(--color-white);
-        text-decoration: none;
-        text-align: center;
-    }
-
-    &-clear{
-        border: 1px solid var(--color-primary);
-
+        flex-direction: column;
+        justify-content: center;
+        max-width: 50rem;
     }
 }

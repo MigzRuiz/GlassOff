@@ -1,5 +1,6 @@
 :root{
     --color-primary: #4C85D9;
+
     --color-secondary: #7DD0D3;
 
     --color-purple: #383868;
@@ -7,4 +8,10 @@
     --color-white: #fff;
 }
 
+
+//colors
+$light-gradient: to top, rgba(#56B1E5,.1), rgba(#fff,.1);
+
 $default-font-size: 1.6rem;
+$weight-l: 300;
+$weight-m: 500;

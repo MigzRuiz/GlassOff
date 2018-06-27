@@ -1,0 +1,51 @@
+.about{
+    background-image: linear-gradient(to top, var(--color-primary-light), var(--color-secondary-light));
+
+    height: 55rem;
+
+    transform: skewY(-20deg);
+    margin-top: 2rem;
+    z-index: -1;
+    position: relative;
+
+    & > * {
+        transform: skewY(20deg);
+    }
+
+    &__box{
+        display:flex;
+        justify-content: flex-end;
+
+        //Centering all content
+        width: 100%;        
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+
+    &__circle{
+        position: absolute;
+        background-image: linear-gradient($light-gradient);
+        width: 45rem;
+        height: 45rem;
+        -webkit-clip-path: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+        right:0;
+        top: 2rem; 
+    }
+
+    &__phone{
+        display: inline-block;
+        position: absolute;
+        z-index: 9999;
+        left: 0rem;
+        top: 4rem;
+    }
+
+    &__text{
+        display: flex;
+        flex-direction: column;
+        margin-top: 11rem;
+        margin-right: 5rem;
+        max-width: 50rem;
+    }
+}

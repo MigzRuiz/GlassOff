@@ -1,50 +1,26 @@
-.about{
-    background-image: linear-gradient(to top, var(--color-primary), var(--color-secondary));
+.works{
+    //centering css
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
 
-    height: 55rem;
+    margin-top: 30rem;
+    text-align: center;
+}
 
-    transform: skewY(-20deg);
-    margin-top: 2rem;
-    z-index: -1;
-    position: relative;
+//component card
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
-    & > * {
-        transform: skewY(20deg);
-    }
-
-    &__box{
-        display:flex;
-        justify-content: flex-end;
-
-        //Centering all content
-        width: 100%;        
-        max-width: 1140px;
-        margin: 0 auto;
-    }
-
-    &__circle{
-        position: absolute;
-        background-image: linear-gradient($light-gradient);
-        width: 51rem;
-        height: 51rem;
-        -webkit-clip-path: circle(50% at 50% 50%);
-        clip-path: circle(50% at 50% 50%);
-        right:0;
-    }
-
-    &__phone{
-        display: inline-block;
-        position: absolute;
-        z-index: 9999;
-        left: 0rem;
-        top: 4rem;
-    }
-
-    &__text{
-        display: flex;
-        flex-direction: column;
-        margin-top: 11rem;
-        margin-right: 5rem;
-        max-width: 50rem;
+    &-box {
+        margin: 10rem;
+        border-top: 1rem solid var(--color-secondary-light);
+        width: 60rem;
+        padding: 10rem;
+        box-shadow: var(--shadow-dark);
+        border-radius: 3px;
     }
 }

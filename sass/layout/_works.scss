@@ -1,0 +1,38 @@
+.works{
+    //centering css
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+
+    margin-top: 30rem;
+    text-align: center;
+
+    position: relative;
+}
+
+.accent {
+    height: 75%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.line{
+    width: 5px;
+    height: 75%;
+    background-color: var(--color-secondary-light);
+    position: absolute;
+
+}
+
+.circle{
+    width: 3rem;
+    height: 3rem;
+    background-color: var(--color-white);
+    border: 5px solid var(--color-secondary-light);
+    //-webkit-border-radius: 10rem;
+    border-radius: 10rem;
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+}

@@ -1,0 +1,25 @@
+
+//component card
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &-box {
+        margin: 2rem;
+        border-top: 1rem solid var(--color-secondary-light);
+        max-width: 35rem;
+        padding: 7rem 5rem;
+        box-shadow: var(--shadow-dark);
+        border-radius: 3px;
+
+        &:nth-child(odd){
+            align-self: flex-end;
+        }        
+        
+        &:nth-child(even){
+            align-self: flex-start;
+        }
+    }
+}

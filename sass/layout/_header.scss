@@ -6,9 +6,11 @@
     width: 100%;        
     max-width: 1140px;
     margin: 0 auto;
-
+    
+    
     &__hero{
         display:flex;
+        height: 85vh;
 
         &-left{
             display: flex;
@@ -17,11 +19,21 @@
         }
         &-right{
             z-index: 10;
-            img{
-                transform: scale(.9);   
-            }
+            display: flex;
+            transform: scale(1); 
+        }
+    }/*
+    &__img{
+        transform: scale(.8);   
+        &-phone{
+            transform: scale(.6); 
+            transform: translateY(-4rem);
+        }
+        &-people{
+            transform:translateY(-39rem);
         }
     }
+    */
 }
 
 .navbar{
@@ -39,7 +51,6 @@
         }
     }
     &__item{
-        //typography
         text-decoration: none;
         color: var(--color-primary);
     }

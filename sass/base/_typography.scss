@@ -10,15 +10,23 @@ body {
         font-weight: $weight-m;
         line-height: 4.5rem;
 
-        .off{
-            color:var(--color-secondary);
+        backface-visibility: hidden;
+
+        &-main{
+            animation: fadeIn 2s ease-out;
+
+            .off{
+                color:var(--color-secondary);
+            }
+            .glass{
+                color:var(--color-primary);
+               
+            }
         }
-        .glass{
-            color:var(--color-primary);
-        }
-        .sub{
-            display:inline-block;
+
+        &-sub{
             color:var(--color-dark);
+            animation: moveInLeft 2s ease-out;
         }
     }
 
@@ -45,3 +53,5 @@ body {
         color: var(--color-white);
     }
 }
+
+

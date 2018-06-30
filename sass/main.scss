@@ -1,3 +1,4 @@
+@import "abstracts/animation";
 @import "abstracts/mixins";
 @import "abstracts/utilities";
 @import "abstracts/variables";
@@ -10,6 +11,7 @@
 
 @import "layout/about";
 @import "layout/faq";
+@import "layout/footer";
 @import "layout/header";
 @import "layout/layout";
 @import "layout/works";

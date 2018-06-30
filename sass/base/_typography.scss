@@ -36,3 +36,12 @@ body {
         color: var(--color-white);
     }
 }
+
+.faq{
+    &-question{
+        color: var(--color-skyblue);
+    }
+    &-answer{
+        color: var(--color-white);
+    }
+}

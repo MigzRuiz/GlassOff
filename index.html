@@ -11,27 +11,6 @@
 </head>
 
 <body>
-
-    <!--Done! - User Story #1: My product landing page should have a header element with a corresponding id="header".
-    <!--Done! - User Story #2: I can see an image within the header element with a corresponding id="header-img". A company logo would make a good image here.
-    <!--Done! - User Story #3: Within the #header element I can see a nav element with a corresponding id="nav-bar".
-    <!--Done! - User Story #4: I can see at least three clickable elements inside the nav element, each with the class nav-link.
-        User Story #5: When I click a .nav-link button in the nav element, I am taken to the corresponding section of the landing page.
-        User Story #6: I can watch an embedded product video with id="video".
-        User Story #7: My landing page has a form element with a corresponding id="form".
-        User Story #8: Within the form, there is an input field with id="email" where I can enter an email address.
-        User Story #9: The #email input field should have placeholder text to let the user know what the field is for.
-        User Story #10: The #email input field uses HTML5 validation to confirm that the entered text is an email address.
-        User Story #11: Within the form, there is a submit input with a corresponding id="submit".
-        User Story #12: When I click the #submit element, the email is submitted to a static page (use this mock URL: https://www.freecodecamp.com/email-submit) that confirms the email address was entered and that it posted successfully.
-        User Story #13: The navbar should always be at the top of the viewport.
-        User Story #14: My product landing page should have at least one media query.
-        User Story #15: My product landing page should utilize CSS flexbox at least once.-->
-
-    <div class="container">
-
-    </div>
-
     <header id="header" class="header">
         <nav class="navbar margin-btm-s" id="nav-bar">
             <ul class="navbar__list">
@@ -206,19 +185,21 @@
             </div>
         </div>
     </header>
-    <div class="about">
+    <section class="about">
         <div class="about__circle"></div>
-        <div class="about__box">
-            <img src="img/IPhone_X.png" alt="iPhone Photo" class="about__phone"/>
-            <div class="about__text">
-                <h1 class="heading-primary text-white margin-btm-s">What is Offglass</h1>
-                <p class="text text-white margin-btm-s">OffGlass is a mobile application for both iOS and Android, especially designed for people who experience the natural age-related changes when reading. The application’s scientifically proven program exercises the visual cortex of the brain to faster process visual information, and thereby help improve vision sharpness.</p>
-                <a href="#" class="btn btn-purple">Get it on the App Store</a>
+        <div class="wrapper">
+            <div class="about__box">
+                <img src="img/IPhone_X.png" alt="iPhone Photo" class="about__phone"/>
+                <div class="about__text">
+                    <h1 class="heading-primary text-white margin-btm-s">What is Offglass</h1>
+                    <p class="text text-white margin-btm-s">OffGlass is a mobile application for both iOS and Android, especially designed for people who experience the natural age-related changes when reading. The application’s scientifically proven program exercises the visual cortex of the brain to faster process visual information, and thereby help improve vision sharpness.</p>
+                    <a href="#" class="btn btn-purple">Get it on the App Store</a>
+                </div>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="works margin-btm-s">
+    <section class="works margin-btm-s">
         <h1 class="heading-primary margin-btm-s">How it works</h1>
         <div class="card">
             <div class="line"></div>
@@ -239,9 +220,9 @@
                 <h3 class="heading-tertiary">Heading 3</h3>                    <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sagittis tristique nunc, at varius lectus rutrum vitae.</p>
             </div>
         </div>
-    </div>
+    </section>
 
-    <div class="faq">
+    <section class="faq">
         <div class="faq-content">
             <h1 class="heading-primary text-white margin-btm-s">Frequently asked questions</h1>
                 
@@ -262,9 +243,9 @@
                 </div>
             </div>        
         </div>
-    </div>
+    </section>
 
-    <div class="footer">
+    <section class="footer">
         <div class="footer-content">
             <svg width="76px" height="59px" viewBox="0 0 76 59" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <g id="Page-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -279,7 +260,10 @@
                     </g>
             </svg>
         </div>     
-    </div>
+    </section>
+
+    <script src="./app.js">
+    </script>
 </body>
 
 </html>

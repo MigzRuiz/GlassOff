@@ -2,11 +2,8 @@
     background-image: linear-gradient(to top, var(--color-primary-light), var(--color-secondary-light));
 
     height: 55rem;
-
+    position: relative;  
     transform: skewY(-20deg);
-    margin-top: 2rem;
-    z-index: -1;
-    position: relative;
 
     & > * {
         transform: skewY(20deg);
@@ -14,12 +11,15 @@
 
     &__box{
         display:flex;
-        justify-content: flex-end;
-
-        //Centering all content
-        width: 100%;        
-        max-width: 1140px;
-        margin: 0 auto;
+        justify-content: space-between;
+    }  
+    
+    &__text{
+        display: flex;
+        flex-direction: column;
+        margin-top: 11rem;
+        margin-right: 5rem;
+        max-width: 50rem;
     }
 
     &__circle{
@@ -34,18 +34,6 @@
     }
 
     &__phone{
-        display: inline-block;
-        position: absolute;
-        z-index: 9999;
-        left: 0rem;
-        top: 4rem;
-    }
-
-    &__text{
-        display: flex;
-        flex-direction: column;
-        margin-top: 11rem;
-        margin-right: 5rem;
-        max-width: 50rem;
+        animation: fadeIn 2s ease-out;
     }
 }

@@ -11,7 +11,7 @@
 
     &__box{
         display:flex;
-        justify-content: space-between;
+        justify-content:center;
     }  
     
     &__text{
@@ -34,6 +34,7 @@
     }
 
     &__phone{
+        margin-right: 10rem;
         animation: fadeIn 2s ease-out;
     }
 }

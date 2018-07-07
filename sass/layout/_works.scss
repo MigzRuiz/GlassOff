@@ -19,6 +19,10 @@
     background-color: var(--color-secondary-light);
     position: absolute;
 
+    @include respond(tab-port){
+        visibility: hidden;
+    }
+
 }
 
 .circle{
@@ -30,4 +34,8 @@
     border-radius: 10rem;
     -webkit-clip-path: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
+
+    @include respond(tab-port){
+        visibility: hidden;
+    }
 }

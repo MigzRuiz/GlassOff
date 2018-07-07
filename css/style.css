@@ -124,8 +124,14 @@ body {
     border-radius: 3px; }
     .card-box:nth-child(odd) {
       align-self: flex-end; }
+      @media (max-width: 56.25em) {
+        .card-box:nth-child(odd) {
+          align-self: center; } }
     .card-box:nth-child(even) {
       align-self: flex-start; }
+      @media (max-width: 56.25em) {
+        .card-box:nth-child(even) {
+          align-self: center; } }
 
 .btn, .btn:link, .btn:visited {
   text-decoration: none;
@@ -274,6 +280,9 @@ body {
   height: 75%;
   background-color: var(--color-secondary-light);
   position: absolute; }
+  @media (max-width: 56.25em) {
+    .line {
+      visibility: hidden; } }
 
 .circle {
   width: 3rem;
@@ -283,3 +292,6 @@ body {
   border-radius: 10rem;
   -webkit-clip-path: circle(50% at 50% 50%);
   clip-path: circle(50% at 50% 50%); }
+  @media (max-width: 56.25em) {
+    .circle {
+      visibility: hidden; } }

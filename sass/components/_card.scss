@@ -13,13 +13,19 @@
         padding: 7rem 5rem;
         box-shadow: var(--shadow-dark);
         border-radius: 3px;
-
+        
         &:nth-child(odd){
             align-self: flex-end;
+            @include respond(tab-port){
+                align-self: center;
+            }
         }        
         
         &:nth-child(even){
             align-self: flex-start;
+            @include respond(tab-port){
+                align-self: center;
+            }
         }
     }
 }
